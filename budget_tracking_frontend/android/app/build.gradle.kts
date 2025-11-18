@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.budget_tracking_frontend"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // Pin NDK version to satisfy shared_preferences_android and sqflite_android requirements
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
