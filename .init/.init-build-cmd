@@ -1,0 +1,4 @@
+{
+    "command": "flutter build apk --release --target-platform android-x64",
+    "working_directory": "/home/kavia/workspace/code-generation/monthly-budget-tracker-40999-41009/budget_tracking_frontend"
+}

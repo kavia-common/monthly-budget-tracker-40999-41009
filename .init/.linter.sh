@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/kavia/workspace/code-generation/monthly-budget-tracker-40999-41009/budget_tracking_frontend
+flutter analyze
+
